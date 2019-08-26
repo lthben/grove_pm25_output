@@ -138,7 +138,7 @@ void setup()
 
   lcd.print("Initialising ...");
   Serial.println("Waiting sensor to init...");
-  delay(2000);//need 30s for sensor to stabilise
+  delay(30000);//need 30s for sensor to stabilise
 
   Serial.println("Sensor ready.");
   lcd.clear();
